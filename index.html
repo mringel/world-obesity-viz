@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" data-ng-app="myApp">
+<head>
+  <meta charset="UTF-8">
+  <title>Global Obesity Rates</title>
+  <script src="lib/d3.js"></script>
+  <script src="lib/topojson.js"></script>
+  <script src="lib/angular.js"></script>
+  <script src="lib/queue.v1.min.js"></script>
+
+
+  <script src="src/map.js"></script>
+  <script src="src/app.js"></script>
+
+  <!-- <link href="src/app.css" rel="stylesheet"> -->
+  <link href="src/map.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div ng-controller="MainController">
+    <world-map data="selection"></world-map>
+  </div>
+
+</body>
+</html>

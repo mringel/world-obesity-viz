@@ -1,0 +1,30 @@
+svg {
+    width: 100%
+    fill: #999;
+}
+
+path {
+    fill: none;
+    stroke: black
+}
+
+.background {
+  fill: #999;
+  stroke-width: .8px;
+  stroke: black;
+}
+
+.graticule {
+    stroke: rgba(0,0,0, .2);
+    stroke-width: .5px;
+}
+
+.country {
+    cursor: pointer;
+}
+
+.country .land, .state .land {
+    fill: #999;
+    stroke: rgba(0,0,0, .2);
+    stroke-width .3px;
+}

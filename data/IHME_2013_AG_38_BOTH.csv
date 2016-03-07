@@ -1,0 +1,220 @@
+location_id,location,location_name,year,age_group_id,age_group,age_start,age_end,sex_id,sex,unit,metric,measure,mean,lower,upper
+160,AFG,Afghanistan,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.459,0.442,0.477
+168,AGO,Angola,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.462,0.442,0.481
+43,ALB,Albania,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.51,0.492,0.528
+74,AND,Andorra,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.354,0.337,0.372
+156,ARE,United Arab Emirates,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.647,0.627,0.667
+97,ARG,Argentina,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.521,0.5,0.542
+33,ARM,Armenia,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.53,0.511,0.547
+105,ATG,Antigua and Barbuda,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.428,0.408,0.45
+71,AUS,Australia,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.621,0.602,0.64
+75,AUT,Austria,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.512,0.493,0.53
+34,AZE,Azerbaijan,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.634,0.617,0.651
+175,BDI,Burundi,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.165,0.154,0.177
+76,BEL,Belgium,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.526,0.506,0.545
+200,BEN,Benin,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.202,0.189,0.215
+201,BFA,Burkina Faso,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.227,0.213,0.241
+161,BGD,Bangladesh,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.169,0.16,0.179
+45,BGR,Bulgaria,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.543,0.524,0.562
+140,BHR,Bahrain,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.711,0.693,0.729
+106,BHS,The Bahamas,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.576,0.556,0.595
+44,BIH,Bosnia and Herzegovina,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.546,0.527,0.566
+57,BLR,Belarus,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.447,0.426,0.466
+108,BLZ,Belize,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.671,0.653,0.689
+121,BOL,Bolivia,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.572,0.554,0.59
+135,BRA,Brazil,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.557,0.536,0.577
+107,BRB,Barbados,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.638,0.619,0.656
+66,BRN,Brunei,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.206,0.192,0.219
+162,BTN,Bhutan,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.353,0.333,0.372
+193,BWA,Botswana,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.378,0.361,0.394
+169,CAF,Central African Republic,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.213,0.199,0.227
+101,CAN,Canada,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.565,0.547,0.583
+94,CHE,Switzerland,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.482,0.463,0.502
+98,CHL,Chile,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.659,0.643,0.675
+6,CHN,China,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.279,0.266,0.291
+205,CIV,Cote d'Ivoire,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.308,0.293,0.326
+202,CMR,Cameroon,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.458,0.441,0.477
+171,COD,Democratic Republic of the Congo,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.175,0.165,0.187
+170,COG,Congo,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.337,0.321,0.354
+125,COL,Colombia,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.551,0.537,0.566
+176,COM,Comoros,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.375,0.358,0.393
+203,CPV,Cape Verde,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.384,0.365,0.404
+126,CRI,Costa Rica,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.608,0.59,0.628
+109,CUB,Cuba,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.445,0.424,0.466
+77,CYP,Cyprus,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.596,0.575,0.616
+47,CZE,Czech Republic,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.579,0.561,0.598
+2,D0,Developing,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.322,0.318,0.327
+3,D1,Developed,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.539,0.534,0.544
+81,DEU,Germany,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.567,0.549,0.584
+177,DJI,Djibouti,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.349,0.331,0.366
+110,DMA,Dominica,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.559,0.542,0.576
+78,DNK,Denmark,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.519,0.499,0.538
+111,DOM,Dominican Republic,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.528,0.508,0.548
+139,DZA,Algeria,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.499,0.479,0.519
+122,ECU,Ecuador,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.553,0.534,0.57
+141,EGY,Egypt,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.753,0.739,0.767
+178,ERI,Eritrea,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.146,0.135,0.157
+92,ESP,Spain,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.544,0.527,0.561
+58,EST,Estonia,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.57,0.55,0.59
+179,ETH,Ethiopia,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.061,0.056,0.066
+79,FIN,Finland,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.564,0.545,0.584
+22,FJI,Fiji,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.512,0.492,0.533
+80,FRA,France,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.492,0.473,0.511
+25,FSM,Federated States of Micronesia,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.749,0.733,0.765
+1,G,Global,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.375,0.371,0.379
+173,GAB,Gabon,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.51,0.495,0.525
+95,GBR,United Kingdom,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.618,0.609,0.628
+35,GEO,Georgia,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.594,0.575,0.613
+207,GHA,Ghana,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.334,0.317,0.351
+208,GIN,Guinea,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.225,0.211,0.239
+206,GMB,The Gambia,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.416,0.396,0.435
+209,GNB,Guinea-Bissau,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.46,0.441,0.482
+172,GNQ,Equatorial Guinea,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.615,0.595,0.635
+82,GRC,Greece,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.613,0.596,0.633
+112,GRD,Grenada,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.436,0.415,0.455
+128,GTM,Guatemala,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.484,0.466,0.503
+113,GUY,Guyana,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.524,0.509,0.541
+129,HND,Honduras,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.513,0.496,0.529
+46,HRV,Croatia,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.583,0.563,0.601
+114,HTI,Haiti,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.24,0.226,0.253
+48,HUN,Hungary,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.602,0.583,0.621
+11,IDN,Indonesia,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.26,0.246,0.276
+163,IND,India,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.201,0.189,0.214
+84,IRL,Ireland,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.584,0.565,0.603
+142,IRN,Iran,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.564,0.548,0.58
+143,IRQ,Iraq,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.653,0.633,0.675
+83,ISL,Iceland,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.671,0.653,0.69
+85,ISR,Israel,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.565,0.545,0.586
+86,ITA,Italy,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.498,0.479,0.516
+115,JAM,Jamaica,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.503,0.481,0.521
+144,JOR,Jordan,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.736,0.722,0.751
+67,JPN,Japan,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.233,0.222,0.245
+36,KAZ,Kazakhstan,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.548,0.528,0.567
+180,KEN,Kenya,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.321,0.304,0.338
+37,KGZ,Kyrgyzstan,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.508,0.487,0.528
+10,KHM,Cambodia,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.155,0.147,0.164
+23,KIR,Kiribati,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.791,0.776,0.805
+68,KOR,South Korea,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.323,0.311,0.336
+145,KWT,Kuwait,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.781,0.766,0.795
+12,LAO,Laos,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.246,0.233,0.26
+146,LBN,Lebanon,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.667,0.65,0.683
+210,LBR,Liberia,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.453,0.434,0.472
+147,LBY,Libya,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.739,0.722,0.757
+116,LCA,Saint Lucia,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.455,0.435,0.477
+17,LKA,Sri Lanka,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.262,0.247,0.278
+194,LSO,Lesotho,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.428,0.414,0.442
+60,LTU,Lithuania,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.602,0.583,0.62
+87,LUX,Luxembourg,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.513,0.493,0.533
+59,LVA,Latvia,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.564,0.546,0.584
+148,MAR,Morocco,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.537,0.517,0.557
+61,MDA,Moldova,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.526,0.506,0.545
+181,MDG,Madagascar,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.111,0.103,0.118
+14,MDV,Maldives,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.403,0.387,0.419
+130,MEX,Mexico,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.693,0.679,0.706
+24,MHL,Marshall Islands,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.769,0.755,0.783
+49,MKD,Macedonia,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.546,0.526,0.565
+211,MLI,Mali,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.387,0.371,0.405
+88,MLT,Malta,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.66,0.641,0.679
+15,MMR,Myanmar,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.182,0.173,0.193
+50,MNE,Montenegro,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.586,0.565,0.607
+38,MNG,Mongolia,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.494,0.476,0.51
+184,MOZ,Mozambique,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.209,0.197,0.221
+212,MRT,Mauritania,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.39,0.373,0.409
+183,MUS,Mauritius,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.446,0.426,0.467
+182,MWI,Malawi,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.208,0.198,0.219
+13,MYS,Malaysia,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.463,0.442,0.482
+195,NAM,Namibia,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.328,0.312,0.345
+213,NER,Niger,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.257,0.243,0.271
+214,NGA,Nigeria,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.365,0.348,0.383
+131,NIC,Nicaragua,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.558,0.54,0.576
+89,NLD,Netherlands,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.49,0.473,0.508
+90,NOR,Norway,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.529,0.51,0.549
+164,NPL,Nepal,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.13,0.122,0.139
+72,NZL,New Zealand,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.655,0.642,0.67
+150,OMN,Oman,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.611,0.592,0.632
+165,PAK,Pakistan,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.331,0.317,0.345
+132,PAN,Panama,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.262,0.246,0.278
+123,PER,Peru,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.562,0.547,0.577
+16,PHL,Philippines,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.245,0.231,0.261
+26,PNG,Papua New Guinea,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.429,0.408,0.449
+51,POL,Poland,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.568,0.55,0.588
+7,PRK,North Korea,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.044,0.041,0.048
+91,PRT,Portugal,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.592,0.572,0.612
+136,PRY,Paraguay,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.68,0.662,0.699
+149,PSE,Palestine,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.736,0.719,0.751
+151,QAT,Qatar,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.771,0.756,0.784
+65,R1,High-income Asia Pacific,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.263,0.254,0.271
+73,R10,Western Europe,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.544,0.539,0.55
+120,R11,Andean Latin America,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.561,0.55,0.572
+124,R12,Central Latin America,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.614,0.606,0.622
+96,R13,Southern Latin America,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.565,0.551,0.578
+134,R14,Tropical Latin America,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.56,0.54,0.58
+138,R15,North Africa and Middle East,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.62,0.615,0.625
+100,R16,High-income North America,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.653,0.641,0.665
+21,R17,Oceania,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.478,0.462,0.493
+167,R18,Central Sub-Saharan Africa,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.253,0.244,0.262
+174,R19,Eastern Sub-Saharan Africa,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.195,0.191,0.199
+32,R2,Central Asia,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.522,0.514,0.53
+192,R20,Southern Sub-Saharan Africa,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.499,0.491,0.506
+199,R21,Western Sub-Saharan Africa,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.336,0.327,0.344
+5,R3,East Asia,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.276,0.264,0.287
+159,R4,South Asia,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.213,0.204,0.223
+9,R5,Southeast Asia,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.253,0.246,0.26
+70,R6,Australasia,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.626,0.609,0.642
+104,R7,Caribbean,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.443,0.433,0.452
+42,R8,Central Europe,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.564,0.556,0.572
+56,R9,Eastern Europe,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.568,0.554,0.582
+52,ROU,Romania,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.554,0.535,0.572
+62,RUS,Russia,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.571,0.552,0.589
+185,RWA,Rwanda,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.128,0.12,0.137
+64,S1,High-income,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.533,0.528,0.538
+31,S2,"Central Europe, Eastern Europe, and Central Asia",2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.558,0.552,0.565
+166,S3,Sub-Saharan Africa,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.28,0.275,0.285
+137,S4,North Africa and Middle East,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.62,0.615,0.625
+158,S5,South Asia,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.213,0.204,0.223
+4,S6,"Southeast Asia, East Asia, and Oceania",2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.264,0.258,0.271
+103,S7,Latin America and Caribbean,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.573,0.568,0.579
+152,SAU,Saudi Arabia,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.711,0.698,0.725
+522,SDN,Sudan,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.379,0.361,0.399
+216,SEN,Senegal,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.28,0.268,0.294
+69,SGP,Singapore,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.382,0.363,0.4
+28,SLB,Solomon Islands,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.648,0.63,0.666
+217,SLE,Sierra Leone,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.248,0.236,0.262
+127,SLV,El Salvador,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.554,0.537,0.57
+187,SOM,Somalia,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.269,0.253,0.287
+53,SRB,Serbia,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.531,0.514,0.548
+435,SSD,South Sudan,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.446,0.425,0.467
+215,STP,Sao Tome and Principe,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.387,0.37,0.404
+118,SUR,Suriname,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.574,0.554,0.594
+54,SVK,Slovakia,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.581,0.561,0.599
+55,SVN,Slovenia,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.588,0.57,0.607
+93,SWE,Sweden,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.521,0.502,0.539
+197,SWZ,Swaziland,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.524,0.507,0.541
+186,SYC,Seychelles,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.555,0.536,0.574
+153,SYR,Syria,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.723,0.706,0.74
+204,TCD,Chad,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.201,0.188,0.215
+218,TGO,Togo,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.258,0.245,0.273
+18,THA,Thailand,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.36,0.344,0.377
+39,TJK,Tajikistan,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.408,0.391,0.425
+40,TKM,Turkmenistan,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.536,0.515,0.556
+19,TLS,Timor-Leste,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.049,0.045,0.053
+29,TON,Tonga,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.861,0.849,0.872
+119,TTO,Trinidad and Tobago,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.611,0.595,0.626
+154,TUN,Tunisia,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.547,0.527,0.567
+155,TUR,Turkey,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.65,0.639,0.662
+8,TWN,Taiwan,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.324,0.305,0.341
+189,TZA,Tanzania,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.298,0.284,0.312
+190,UGA,Uganda,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.159,0.149,0.17
+63,UKR,Ukraine,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.583,0.562,0.602
+99,URY,Uruguay,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.563,0.541,0.583
+102,USA,United States,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.663,0.65,0.676
+41,UZB,Uzbekistan,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.479,0.461,0.498
+117,VCT,Saint Vincent and the Grenadines,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.5,0.479,0.521
+133,VEN,Venezuela,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.537,0.516,0.558
+20,VNM,Vietnam,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.131,0.122,0.139
+30,VUT,Vanuatu,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.506,0.492,0.521
+27,WSM,Samoa,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.84,0.825,0.853
+157,YEM,Yemen,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.438,0.42,0.455
+196,ZAF,South Africa,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.549,0.54,0.558
+191,ZMB,Zambia,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.302,0.287,0.316
+198,ZWE,Zimbabwe,2013,38,"20+ yrs, age-standardized",20,100,3,both,pct,overweight,prevalence,0.297,0.284,0.31
