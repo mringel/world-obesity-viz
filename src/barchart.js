@@ -8,21 +8,27 @@ angular.module('myChart', [])
     function draw(svg, x, xAxis, y, yAxis, data) {
       if (data) {
 
-        var margin = {top: 20, left: 20, right: 20, bottom: 20},
+        var margin = {top: 20, left: 40, right: 20, bottom: 40},
           width = 1152 - margin.left - margin.right,
           height = 300 - margin.top - margin.bottom;
 
         var plotData = data.map(function(d) {
-          return {x: d.location_name, y: +d.mean};
-        });
+          return {x: d.location_name, y: +d.mean, id: d.location};
+        }).sort(function(a, b) { return a.y - b.y});
 
         x.domain(plotData.map(function(d) {return d.x;}));
         y.domain([0, d3.max(plotData, function(d) { return d.y})])
 
         svg.append('g')
-          .attr('class', 'x axis')
-          .attr('transform', 'translate(0, '+ height + ')')
-          .call(xAxis)
+            .attr('class', 'x axis')
+            .attr('transform', 'translate(0, '+ height + ')')
+            .call(xAxis)
+          .selectAll('text')
+            .attr('y', 0)
+            .attr('x', 9)
+            .attr('dy', '.35em')
+            .attr('tramsform', 'rotate(90)')
+            .style('text-anchor', 'start');
 
         svg.append('g')
             .attr('class', 'y axis')
@@ -38,6 +44,7 @@ angular.module('myChart', [])
             .data(plotData)
           .enter().append('rect')
             .attr('class', 'bar')
+            .attr('id', function(d) { return d.id; })
             .attr('x', function(d) { return x(d.x); })
             .attr('width', x.rangeBand())
             .attr('y', function(d) { return y(d.y); })
@@ -60,9 +67,9 @@ angular.module('myChart', [])
 
     function link(scope, element, attrs) {
 
-      var margin = {top: 20, left: 20, right: 20, bottom: 20},
-        width = 960 - margin.left - margin.right,
-        height = 500 - margin.top - margin.bottom;
+      var margin = {top: 20, left: 40, right: 20, bottom: 40},
+        width = 1152 - margin.left - margin.right,
+        height = 300 - margin.top - margin.bottom;
 
       var x = d3.scale.ordinal()
         .rangeRoundBands([0, width], .1);

@@ -6,6 +6,25 @@ angular.module('myMap', [])
   .directive('worldMap', ['d3', function(d3) {
 
     function draw(svg, data) {
+
+      var hover = function(d) {
+        var div = document.getElementById('tooltip');
+        div.style.left = event.pageX + 'px';
+        div.style.top = event.pageY + 'px';
+        div.innerHTML = d.properties.name + '<br> ' + d3.format('%')(rateById.get(d.id)) + ' over weight';
+        var selector = "#"+d.id;
+        console.log(d3.selectAll(selector));
+        d3.selectAll(selector)
+          .classed('highlight', true);
+        // console.log(d);
+      };
+
+      var reset = function(d) {
+        var selector = "#"+d.id;
+        d3.selectAll(selector)
+          .classed('highlight', false);        
+      }
+
       if (data) {
         console.log('draw function called with data defined');
         console.log(svg.selectAll('g .country'));
@@ -23,7 +42,12 @@ angular.module('myMap', [])
 
 
         var countries = svg.selectAll('g .country')
-          .attr('class', function(d) { return quantize(rateById.get(d.id)) });
+          .attr('class', function(d) {
+            return quantize(rateById.get(d.id)); })
+          .attr('data-percent', function(d) {
+            return rateById.get(d.id); })
+          .on('mouseover', hover)
+          .on('mouseleave', reset);
 
       } else {
         console.log('draw funtion called with no data');
@@ -100,6 +124,7 @@ angular.module('myMap', [])
       });
 
       function drawFeatureSet(className, featureSet) {
+
         var set = features.selectAll('.' + className)
           .data(featureSet)
           .enter()
@@ -115,7 +140,9 @@ angular.module('myMap', [])
 
           set.append('path')
             .attr('class', 'land')
-            .attr('d', path);
+            .attr('d', path)
+            .attr('id', function(d) { return d.id; });
+
 
           return set;
       } // end drawFeatureSet function

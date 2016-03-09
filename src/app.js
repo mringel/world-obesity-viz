@@ -18,4 +18,5 @@ angular.module('myApp', ['myMap', 'myChart'])
         $scope.$digest();
       })
 
+      
     }]);

@@ -13,7 +13,7 @@
   <script src="src/barchart.js"></script>
   <script src="src/app.js"></script>
 
-  <!-- <link href="src/app.css" rel="stylesheet"> -->
+  <link href="src/app.css" rel="stylesheet">
   <link href="src/map.css" rel="stylesheet">
 
 </head>
@@ -21,6 +21,7 @@
 <body>
 
   <div ng-controller="MainController">
+    <div id="tooltip"> </div>
 
     <div>
       <world-map data="selection"></world-map>
