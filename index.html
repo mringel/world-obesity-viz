@@ -20,7 +20,18 @@
 <body>
 
   <div ng-controller="MainController">
-    <world-map data="selection"></world-map>
+
+    <div>
+      <world-map data="selection"></world-map>
+    </div>
+
+    <div class="dataViewer">
+      <ul>
+        <li data-ng-repeat="row in data">
+          {{row}}
+        </li>
+      </ul>
+    </div>
   </div>
 
 </body>

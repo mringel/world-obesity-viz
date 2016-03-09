@@ -5,6 +5,31 @@ angular.module('myMap', [])
 
   .directive('worldMap', ['d3', function(d3) {
 
+    function draw(svg, data) {
+      if (data) {
+        console.log('draw function called with data defined');
+        console.log(svg.selectAll('g .country'));
+
+        var rateById = d3.map();
+        var quantize = d3.scale.quantize()
+          .domain([0, 0.9])
+          .range(d3.range(5).map(function(i) { return 'q' + i + '-5'}));
+
+        data.forEach(function(d) {
+          rateById.set(d.location, parseFloat(d.mean));
+        })
+
+        // console.log(rateById);
+
+
+        var countries = svg.selectAll('g .country')
+          .attr('class', function(d) { return quantize(rateById.get(d.id)) });
+
+      } else {
+        console.log('draw funtion called with no data');
+      }
+    }
+
     return {
       restrict: 'E',
       scope : {
@@ -19,6 +44,7 @@ angular.module('myMap', [])
     };
 
     function link(scope, element, attrs) {
+
       var width   = 960,
           height  = 480,
           projection,
@@ -62,6 +88,15 @@ angular.module('myMap', [])
           }))
           .attr('class', 'boundary')
           .attr('d', path);
+
+        console.log('inside json callback...');
+        console.log(d3.selectAll('.country'));
+
+        scope.$watch('data', function(newVal, oldVal, scope) {
+          var data = scope.data;
+          draw(svg, data);
+        }, true);
+        scope.$digest();
       });
 
       function drawFeatureSet(className, featureSet) {
@@ -83,7 +118,12 @@ angular.module('myMap', [])
             .attr('d', path);
 
           return set;
-      }
+      } // end drawFeatureSet function
 
-    }
+      // scope.$watch('data', function(newVal, oldVal, scope) {
+      //   var data = scope.data;
+      //   draw(svg, data);
+      // }, true);
+      //
+    } // end link function
   }]);

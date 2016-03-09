@@ -3,28 +3,43 @@ svg {
     fill: #999;
 }
 
-path {
-    fill: none;
+/*path {
+    fill: #999;
     stroke: black
-}
+}*/
 
-.background {
+/*.background {
   fill: #999;
   stroke-width: .8px;
   stroke: black;
+}*/
+
+.boundary {
+  stroke: #DDD;
+  fill: none;
 }
 
-.graticule {
+g {
+  fill: #999;
+}
+/*.graticule .boundary {
     stroke: rgba(0,0,0, .2);
     stroke-width: .5px;
-}
+    fill: none;
+}*/
 
 .country {
     cursor: pointer;
 }
 
-.country .land, .state .land {
+.country .land {
     fill: #999;
     stroke: rgba(0,0,0, .2);
     stroke-width .3px;
 }
+
+.q0-5 { fill: #c7e9b4; }
+.q1-5 { fill: #7fcdbb; }
+.q2-5 { fill: #41b6c4; }
+.q3-5 { fill: #2c7fb8; }
+.q4-5 { fill: #253494; }
