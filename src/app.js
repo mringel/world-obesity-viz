@@ -1,4 +1,4 @@
-angular.module('myApp', ['myMap'])
+angular.module('myApp', ['myMap', 'myChart'])
   .factory('d3', function() {
     return d3;
   })

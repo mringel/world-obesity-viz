@@ -45,8 +45,8 @@ angular.module('myMap', [])
 
     function link(scope, element, attrs) {
 
-      var width   = 960,
-          height  = 480,
+      var width   = 1152,
+          height  = 576,
           projection,
           path,
           svg,
@@ -57,7 +57,7 @@ angular.module('myMap', [])
           countrySet;
 
       projection = d3.geo.equirectangular()
-        .scale(153)
+        .scale(180)
         .translate([width/2, height/2])
         .precision(0.1);
 
