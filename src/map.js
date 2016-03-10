@@ -77,7 +77,7 @@ angular.module('myMap', [])
           svg,
           features,
           graticule,
-          baseMapJson = '/data/countries_topo.json',
+          baseMapJson = '/world-obesity-viz/data/countries_topo.json',
           countries,
           countrySet;
 
