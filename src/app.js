@@ -6,7 +6,7 @@ angular.module('myApp', ['myMap', 'myChart', 'myTreeMap'])
   .controller('MainController', ['$scope', 'd3',
     function($scope, d3) {
 
-      var dataUrl = '../data/IHME_2013_subset.csv'
+      var dataUrl = '/data/IHME_2013_subset.csv'
       // $scope.selection = {};
       // $scope.data = {};
 

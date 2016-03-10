@@ -16,9 +16,7 @@ angular.module('myMap', [])
         console.log(d3.selectAll(selector));
         d3.selectAll(selector)
           .classed('highlight', true);
-        // console.log(subSelect);
         subSelect({id: d.id});
-        // console.log(d);
       };
 
       var reset = function(d) {
@@ -79,7 +77,7 @@ angular.module('myMap', [])
           svg,
           features,
           graticule,
-          baseMapJson = '../data/countries_topo.json',
+          baseMapJson = '/data/countries_topo.json',
           countries,
           countrySet;
 
