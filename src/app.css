@@ -15,6 +15,14 @@ font-family: "HelveticaNeue-Light", "Helvetica Neue Light",
 
 .highlight {
   fill: yellow !important;
-  border: 2px solid yellow;
+  /*border: 4px solid black;*/
   z-index: 100;
+}
+
+/*Styles for treemap*/
+.node {
+    border: solid 1px white;
+    line-height: 0.95;
+    overflow: hidden;
+    position: absolute;
 }

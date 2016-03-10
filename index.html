@@ -11,8 +11,10 @@
 
   <script src="src/map.js"></script>
   <script src="src/barchart.js"></script>
+  <script src="src/genderchart.js"></script>
   <script src="src/app.js"></script>
 
+  <link href="lib/grids.css" rel="stylesheet">
   <link href="src/app.css" rel="stylesheet">
   <link href="src/map.css" rel="stylesheet">
 
@@ -21,23 +23,39 @@
 <body>
 
   <div ng-controller="MainController">
+
     <div id="tooltip"> </div>
 
-    <div>
-      <world-map data="selection"></world-map>
+    <div class="pure-g">
+      <div class="pure-u-2-3">
+        <div>
+          <world-map data="selection" callback-fn=subSelect(id)></world-map>
+        </div>
+        <div>
+          <bar-chart data="selection" callback-fn=subSelect(id)></bar-chart>
+        </div>
+      </div>
+      <div class="pure-u-1-3">
+        <div>
+          <tree-map data="countryData"></tree-map>
+        </div>
+      </div>
     </div>
 
-    <div>
-      <bar-chart data="selection"></bar-chart>
-    </div>
 
-    <div class="dataViewer">
+
+
+
+
+
+
+    <!-- <div class="dataViewer">
       <ul>
-        <li data-ng-repeat="row in data">
+        <li data-ng-repeat="row in countryData">
           {{row}}
         </li>
       </ul>
-    </div>
+    </div> -->
   </div>
 
 </body>

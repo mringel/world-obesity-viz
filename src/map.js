@@ -5,25 +5,27 @@ angular.module('myMap', [])
 
   .directive('worldMap', ['d3', function(d3) {
 
-    function draw(svg, data) {
+    function draw(svg, data, subSelect) {
 
       var hover = function(d) {
         var div = document.getElementById('tooltip');
         div.style.left = event.pageX + 'px';
-        div.style.top = event.pageY + 'px';
+        div.style.top = (event.pageY-80) + 'px';
         div.innerHTML = d.properties.name + '<br> ' + d3.format('%')(rateById.get(d.id)) + ' over weight';
         var selector = "#"+d.id;
         console.log(d3.selectAll(selector));
         d3.selectAll(selector)
           .classed('highlight', true);
+        // console.log(subSelect);
+        subSelect({id: d.id});
         // console.log(d);
       };
 
       var reset = function(d) {
         var selector = "#"+d.id;
         d3.selectAll(selector)
-          .classed('highlight', false);        
-      }
+          .classed('highlight', false);
+      };
 
       if (data) {
         console.log('draw function called with data defined');
@@ -57,7 +59,8 @@ angular.module('myMap', [])
     return {
       restrict: 'E',
       scope : {
-        data: '=' // does this need to be '=?' ?
+        mapSubSelect: '&callbackFn',
+        data: '='
       },
       template:
       '<div class="map-wrapper">' +
@@ -113,12 +116,14 @@ angular.module('myMap', [])
           .attr('class', 'boundary')
           .attr('d', path);
 
-        console.log('inside json callback...');
-        console.log(d3.selectAll('.country'));
+        // console.log('inside json callback...');
+        // console.log(d3.selectAll('.country'));
+
+        var subSelect = scope.mapSubSelect;
 
         scope.$watch('data', function(newVal, oldVal, scope) {
           var data = scope.data;
-          draw(svg, data);
+          draw(svg, data, subSelect);
         }, true);
         scope.$digest();
       });
