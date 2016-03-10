@@ -43,3 +43,27 @@ g {
 .q2-5 { fill: #41b6c4; }
 .q3-5 { fill: #2c7fb8; }
 .q4-5 { fill: #253494; }
+
+
+.bar {
+  fill: steelblue;
+}
+
+.bar:hover {
+  fill: brown;
+}
+
+.axis {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
