@@ -10,6 +10,7 @@ angular.module('myChart', [])
 
         var hover = function(d) {
           var div = document.getElementById('tooltip');
+          div.style.display = 'inline';
           div.style.left = event.pageX + 'px';
           div.style.top = (event.pageY-80) + 'px';
           div.innerHTML = d.x + '<br> ' +
@@ -21,6 +22,7 @@ angular.module('myChart', [])
         };
 
         var reset = function(d) {
+          document.getElementById('tooltip').style.display = 'none';
           var selector = "#"+d.id;
           d3.selectAll(selector)
             .classed('highlight', false);
