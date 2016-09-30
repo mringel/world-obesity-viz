@@ -22,9 +22,9 @@ angular.module('myTreeMap', [])
             size: oWomen},
             {name: "Overweight Men",
             size: oMen},
-            {name: "Other Women",
+            {name: "Non-overweight Women",
             size: (100 - oWomen)},
-            {name: "Other Men",
+            {name: "Non-overweight Men",
             size: (100 - oMen)}
           ]
         };
