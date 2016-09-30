@@ -12,15 +12,12 @@ angular.module('myChart', [])
           var div = document.getElementById('tooltip');
           div.style.left = event.pageX + 'px';
           div.style.top = (event.pageY-80) + 'px';
-          // console.log(d);
           div.innerHTML = d.x + '<br> ' +
             d3.format('%')(d.y) + ' over weight';
           var selector = "#"+d.id;
-          // console.log(d3.selectAll(selector));
           d3.selectAll(selector)
             .classed('highlight', true);
           subSelect({id: d.id});
-          // console.log(d);
         };
 
         var reset = function(d) {
@@ -48,7 +45,7 @@ angular.module('myChart', [])
             .attr('y', 0)
             .attr('x', 9)
             .attr('dy', '.35em')
-            .attr('tramsform', 'rotate(90)')
+            .attr('transform', 'rotate(90)')
             .style('text-anchor', 'start');
 
         svg.append('g')
