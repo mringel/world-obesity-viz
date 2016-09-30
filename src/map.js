@@ -9,27 +9,24 @@ angular.module('myMap', [])
 
       var hover = function(d) {
         var div = document.getElementById('tooltip');
+        div.style.display = 'inline';
         div.style.left = event.pageX + 'px';
         div.style.top = (event.pageY-80) + 'px';
         div.innerHTML = d.properties.name + '<br> ' + d3.format('%')(rateById.get(d.id)) + ' over weight';
         var selector = "#"+d.id;
-        console.log(d3.selectAll(selector));
         d3.selectAll(selector)
           .classed('highlight', true);
-        // console.log(subSelect);
         subSelect({id: d.id});
-        // console.log(d);
       };
 
       var reset = function(d) {
+        document.getElementById('tooltip').style.display = 'none';
         var selector = "#"+d.id;
         d3.selectAll(selector)
           .classed('highlight', false);
       };
 
       if (data) {
-        console.log('draw function called with data defined');
-        console.log(svg.selectAll('g .country'));
 
         var rateById = d3.map();
         var quantize = d3.scale.quantize()
@@ -40,7 +37,6 @@ angular.module('myMap', [])
           rateById.set(d.location, parseFloat(d.mean));
         })
 
-        // console.log(rateById);
 
 
         var countries = svg.selectAll('g .country')
@@ -52,7 +48,7 @@ angular.module('myMap', [])
           .on('mouseleave', reset);
 
       } else {
-        console.log('draw funtion called with no data');
+        console.log('draw function called with no data');
       }
     }
 
